@@ -1,7 +1,7 @@
 // ./react-redux-client/src/components/TodoForm.js
 import React from 'react';
 import { FormGroup,FormControl } from 'react-bootstrap';
-import {Button, Modal} from 'react-bootstrap';
+import {Button} from 'react-bootstrap';
 
 // estilos 
 const Container = () => {
@@ -93,12 +93,7 @@ const  item6 = () =>{
 
 
 
-const toggleAddTodo =(e)=>{
 
-  e.preventDefault();
-  this.props.mappedToggleAddTodo();
-
-}
 
 
 

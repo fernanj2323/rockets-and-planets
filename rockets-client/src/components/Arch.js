@@ -1,6 +1,6 @@
 import React from 'react';
 import img1 from '../assets/BFF-1.png';
-import img2 from '../assets/BFF-2.png';
+
 
 import AbsoluteWrapper from "./AbsoluteWrapper";
 

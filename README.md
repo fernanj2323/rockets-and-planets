@@ -1,18 +1,24 @@
-People often serve the front-end React app from the same host and port as their backend implementation.<br>
-For example, a production setup might look like this after the app is deployed:
+En este proyecto tenemos un cliente Rockets y un cliente Planets, en donde podemos agregar items a la base de datos y posteriormente ordenarlos segun sus caracteristicas con el menu de "order by" 
 
-```
-/             - static server returns index.html with React app
-/todos        - static server returns index.html with React app
-/api/todos    - server handles any /api/* requests using the backend implementation
-```
+El proyecto es una arquitectura de backend for frontend, con dos clientes react&redux, dos servicios en nodejs y mongo en la base de datos, 
+Puedes ver mas detalles de la arquitectura en la opcion architecture de la navegación
+----------------------------------------------------------------------
+iniciar el proyecto 
 
-Such setup is **not** required. However, if you **do** have a setup like this, it is convenient to write requests like `fetch('/api/todos')` without worrying about redirecting them to another host or port during development.
+1- iniciar mongodb en localhost,
+en la carpeta raiz va un contenedor de docker con una imagen de mongodb, 
+- docker-compose up.  En la carpeta raiz
 
-To tell the development server to proxy any unknown requests to your API server in development, add a `proxy` field to your `package.json`, for example:
+2- instalar dependencias e iniciar proyecto "esto puede tardar" 
+- npm run start-project. En la carpeta raiz
 
-```js
-  "proxy": "http://localhost:4000",
-```
+si en una segunda oportunidad deseas solo enceder los servicios sin instalar todas las dependencias 
+- npm run dev. En la carpeta raiz
 
-This way, when you `fetch('/api/todos')` in development, the development server will recognize that it’s not a static asset, and will proxy your request to `http://localhost:4000/api/todos` as a fallback. The development server will only attempt to send requests without a `text/html` accept header to the proxy.
+
+Fernando Piñango
+fecha de inicio: 5/04/20 
+decha de finalizacion: 16/04/20
+correo: fernanj2323@gmail.cm 
+linkedin: https://www.linkedin.com/in/fernando-pi%C3%B1ango-52238912a/ 
+github: https://github.com/fernanj2323?tab=repositories

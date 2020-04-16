@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from '../logo.svg';
+import link from '../assets/link.png'
+import git from '../assets/github.png'
 
 
 const backgroundNav = ()=> {
@@ -55,6 +57,20 @@ const Navbah = () => {
             
            Architecture 
           </NavLink>
+
+
+
+          <a  target="blank" href="https://www.linkedin.com/in/fernando-pi%C3%B1ango-52238912a/" >
+              <img src={link} className="linkedin" alt="link"  />
+          </a>     
+
+
+   
+          <a target="blank" href="https://github.com/fernanj2323?tab=repositories" >
+                  <img className="github" src={git} alt="link" />
+          </a> 
+        
+ 
 
         </div>
       </div>

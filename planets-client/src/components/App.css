@@ -36,6 +36,24 @@
   color: #61dafb;
 }
 
+
+.linkedin{
+  width: 40px;
+
+  position: absolute;  
+  left: 92%; 
+  
+}
+
+.github{
+  width: 45px;
+
+
+  position: absolute;  
+  left: 96%; 
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

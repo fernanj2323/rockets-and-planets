@@ -4,10 +4,11 @@ import logo from '../logo.svg';
 import link from '../assets/link.png'
 import git from '../assets/github.png'
 
+
 const backgroundNav = ()=> {
   return {
 
-    background: 'linear-gradient(to right, #573FE8, black)',
+    background: 'linear-gradient(to right, black, #799f0c)',
     color: 'azure'
   }
   }
@@ -23,7 +24,7 @@ const Navbah = () => {
 <nav className="navbar navbar-expand-lg" style={backgroundNav()}>
   <div className="container p-1">
      <img src={logo} className="App-logo" alt="logo" />
-      <span className="navbar-brand mb-0 h1">Rockes App</span>
+      <span className="navbar-brand mb-0 h1">Planets App</span>
       <button
         className="navbar-toggler"
         type="button"
@@ -37,14 +38,6 @@ const Navbah = () => {
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav ml-auto">
-        {/* <NavLink
-            exact
-            to="/"
-            className="nav-item nav-link"
-            activeClassName="nav-item nav-link active"
-          >
-            Home
-          </NavLink> */}
 
           <NavLink
             exact
@@ -52,7 +45,7 @@ const Navbah = () => {
             className="nav-item nav-link" style={colorAzure()}
             activeClassName="nav-item nav-link active"
           >
-            Rockets
+            Planets
           </NavLink>
 
           <NavLink
@@ -66,17 +59,17 @@ const Navbah = () => {
           </NavLink>
 
 
-          <a  target="blank" href="https://www.linkedin.com/in/fernando-pi%C3%B1ango-52238912a/" alt="link" >
+
+          <a  target="blank" href="https://www.linkedin.com/in/fernando-pi%C3%B1ango-52238912a/" >
               <img src={link} className="linkedin"  />
           </a>     
 
 
    
-          <a target="blank" href="https://github.com/fernanj2323?tab=repositories"  alt="link">
+          <a target="blank" href="https://github.com/fernanj2323?tab=repositories" >
                   <img className="github" src={git} />
           </a> 
         
- 
  
 
         </div>
