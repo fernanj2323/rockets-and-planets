@@ -1,4 +1,4 @@
-En este proyecto tenemos un cliente Rockets y un cliente Planets, en donde podemos agregar items a la base de datos y posteriormente ordenarlos segun sus caracteristicas con el menu de "order by" 
+En este proyecto tenemos un cliente llamado "Rockets" y un cliente llamado "Planets", en donde podemos agregar items a la base de datos y posteriormente ordenarlos según sus caracteristicas con el menu lateral de "order by" 
 
 El proyecto es una arquitectura de backend for frontend, con dos clientes react&redux, dos servicios en nodejs y mongo en la base de datos, 
 Puedes ver mas detalles de la arquitectura en la opcion architecture de la navegación
