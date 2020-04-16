@@ -1,0 +1,29 @@
+{
+  "name": "rocket-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm i concurrently && npm run dev",
+    "dev": "concurrently \"npm run start1\" \"npm run start2\" \"npm run start3\" \"npm run start4\"",
+    "start1": "cd rockets-service && node server.js",
+    "start2": "cd planets-service && node server.js ",
+    "start3": "cd rockets-client && npm start",
+    "start4": "cd planets-client && npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "concurrently": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.0",
+    "express-busboy": "^6.0.1",
+    "fs-extra": "^8.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.9",
+    "morgan": "^1.9.1",
+    "source-map-support": "^0.4.16"
+  }
+}

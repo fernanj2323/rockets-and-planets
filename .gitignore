@@ -1,0 +1,6 @@
+/node_modules
+/planets-client/node_modules
+/rockets-client/node_modules
+/planets-service/node_modules
+/rockets-service/node_modules/
+package-lock.json
