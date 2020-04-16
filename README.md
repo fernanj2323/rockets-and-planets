@@ -9,7 +9,7 @@ iniciar el proyecto
 en la carpeta raiz va un contenedor de docker con una imagen de mongodb, 
 - docker-compose up.  En la carpeta raiz
 
-2- instalar dependencias e iniciar proyecto "esto puede tardar" 
+2- en otra consola o terminal, instalar dependencias e iniciar proyecto, esto puede tardar 
 - npm run start-project. En la carpeta raiz
 
 si en una segunda oportunidad deseas solo enceder los servicios sin instalar todas las dependencias 
